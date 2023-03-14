@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>owl carousel</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <!-- owl carousel css cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!-- owl carousel js cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                loop: true,
+                margin: 20,
+                nav: false,
+                dots: false,
+                autoplay: true,
+                autoplayTimeout: 1000
+
+            })
+        })
+    </script>
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .head {
+            text-align: center;
+            padding-top: 90px;
+        }
+
+        .d-fn {
+            display: flex;
+        }
+
+        .head h4 {
+            color: orange;
+            font-size: 27px;
+        }
+
+        .item span {
+            color: orange;
+            font-size: 40px;
+        }
+
+        .item {
+            padding: 25px 30px;
+        }
+
+        .image {
+            height: 60px;
+            width: 60px !important;
+            border-radius: 50%;
+        }
+
+        .o-flex {
+            display: flex;
+            padding: 8px;
+            margin: 7px -10px;
+        }
+
+        .dit {
+            padding: 12px;
+        }
+
+        .head h1 {
+            padding: 5px;
+            font-size: 33px;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+
+        <h4>What Our Client say</h4>
+        <h1>Testimonials</h1>
+    </div>
+    <div class="owl-carousel d-fn">
+
+        <div class="item">
+            <span class="fa-solid fa-quote-left"></span>
+            <p class="para">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum eligendi, quidem nesciunt at
+                reprehenderit fuga veniam accusantium? Reprehenderit, eaque similique.
+            </p>
+            <div class="o-flex">
+                <img src="d2.png" alt="" class="image">
+                <div class="dit">
+                    <h4>Darshit Amrelia</h4>
+                    <p>Example City</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="item">
+            <span class="fa-solid fa-quote-left"></span>
+            <p class="para">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum eligendi, quidem nesciunt at
+                reprehenderit fuga veniam accusantium? Reprehenderit, eaque similique.
+            </p>
+            <div class="o-flex">
+                <img src="d2.png" alt="" class="image">
+                <div class="dit">
+                    <h4>Darshit Amrelia</h4>
+                    <p>Example City</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="item">
+            <span class="fa-solid fa-quote-left"></span>
+            <p class="para">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum eligendi, quidem nesciunt at
+                reprehenderit fuga veniam accusantium? Reprehenderit, eaque similique.
+            </p>
+            <div class="o-flex">
+                <img src="d2.png" alt="" class="image">
+                <div class="dit">
+                    <h4>Darshit Amrelia</h4>
+                    <p>Example City</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
